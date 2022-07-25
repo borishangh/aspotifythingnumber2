@@ -119,9 +119,10 @@ const cant_do_this_shit_anymore = (x) => {
 
 function add_item(n, src, name, artists, node) {
 
-	// if(window.innerWidth)
-	let units = 10;
+	let units = 7;
 
+	if(window.innerWidth<600)
+		units = 4;
 
 	let WIDTH = document.querySelector('.main').clientWidth;
 	let padd = cant_do_this_shit_anymore(units);
