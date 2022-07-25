@@ -1,7 +1,7 @@
 
 const client_id = '42593dff4d824153a7b126a21146e968';
 const client_secret = '7ee1da0f7ff5433d9456d9a026578639';
-const redirect_uri = 'http://127.0.0.1:5500/';
+const redirect_uri = 'https://borishangh.github.io/aspotifythingnumber2/';
 
 const AUTHOURIZE = 'https://accounts.spotify.com/authorize?';
 const TOKEN = 'https://accounts.spotify.com/api/token?';
